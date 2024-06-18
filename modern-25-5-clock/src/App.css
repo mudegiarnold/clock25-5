@@ -1,0 +1,84 @@
+/* src/App.css */
+.App {
+  text-align: center;
+    font-family: Arial, sans-serif;
+      padding: 20px;
+        max-width: 600px;
+          margin: 0 auto;
+            background: #D3D3D3;
+              border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                }
+
+                h1 {
+                  margin-bottom: 20px;
+                  }
+
+                  .length-controls {
+                    display: flex;
+                      justify-content: space-around;
+                        margin-bottom: 10px;
+                        }
+
+                        .length-control {
+                          display: flex;
+                            flex-direction: column;
+                              align-items: center;
+                              }
+
+                              .length-control button {
+                                margin: 5px;
+                                  padding: 10px;
+                                    font-size: 20px;
+                                      border: none;
+                                        background: black;
+                                          color: white;
+                                            border-radius: 5px;
+                                              cursor: pointer;
+                                              }
+
+                                              .length-control button:hover {
+                                                background: gray;
+                                                }
+
+                                                .length-control div {
+                                                  margin: 5px;
+                                                    font-size: 20px;
+                                                    }
+
+                                                    .timer {
+                                                      margin-bottom: 10px;
+                                                      }
+
+                                                      #timer-label {
+                                                        font-size: 24px;
+                                                          margin-bottom: 10px;
+                                                          }
+
+                                                          #time-left {
+                                                            font-size: 48px;
+                                                              margin-bottom: 10px;
+                                                              }
+
+                                                              button {
+                                                                padding: 10px 20px;
+                                                                  font-size: 20px;
+                                                                    border: none;
+                                                                      background: black;
+                                                                        color: white;
+                                                                          border-radius: 5px;
+                                                                            cursor: pointer;
+                                                                              margin: 0 10px;
+                                                                              }
+
+                                                                              button:hover {
+                                                                                background: gray;
+                                                                                }
+
+                                                                                button#reset {
+                                                                                  background: #dc3545;
+                                                                                  }
+
+                                                                                  button#reset:hover {
+                                                                                    background: orange;
+                                                                                    }
